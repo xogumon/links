@@ -1,0 +1,23 @@
+{
+  "name": "links",
+  "version": "1.0.0",
+  "description": "all my links around the wwworld",
+  "private": true,
+  "author": "Ronis Xogum",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RXogum/links.git"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "axios": "^0.22.0",
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

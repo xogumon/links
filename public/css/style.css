@@ -1,0 +1,82 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #3d3d3d;
+    background-image: url(https://cdn.statically.io/img/links.xg1.nl/f=auto,w=720/images/bg.jpg);
+}
+
+@media screen and (min-width:576px) {
+    body {
+        background-image: url(https://cdn.statically.io/img/links.xg1.nl/f=auto,w=1080/images/bg.jpg);
+    }
+}
+
+@media screen and (min-width:767px) {
+    body {
+        background-image: url(https://cdn.statically.io/img/links.xg1.nl/f=auto/images/bg.jpg);
+    }
+}
+
+body::before {
+    content: "";
+    background-color: #000;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: fixed;
+    opacity: 0.777;
+    z-index: -1;
+}
+
+#app.container {
+    max-width: 600px;
+}
+
+.link {
+    font-family: 'Bangers', cursive;
+    background-color: #FFF4EC;
+    transition: transform 0.15s cubic-bezier(0.17, 0.67, 0.29, 2.71);
+}
+
+.link::before, .link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 5px;
+    -webkit-mask-position: 0 top;
+    -webkit-mask-size: 600px 5px;
+    mask-position: 0 top;
+    mask-size: 600px 5px;
+    background-color: inherit;
+}
+
+.link::before {
+    top: -4px;
+    -webkit-mask-image: url(https://cdn.statically.io/img/links.xg1.nl/images/top.svg);
+    mask-image: url(https://cdn.statically.io/img/links.xg1.nl/images/top.svg);
+}
+
+.link::after {
+    bottom: -4px;
+    -webkit-mask-image: url(https://cdn.statically.io/img/links.xg1.nl/images/bottom.svg);
+    mask-image: url(https://cdn.statically.io/img/links.xg1.nl/images/bottom.svg);
+}
+
+.link:hover {
+    transform: translate3d(0, 0, 0) scale(1.015);
+}
+
+.profile-name {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.profile-description {
+    font-family: 'Bungee Hairline', cursive;
+}
