@@ -8,18 +8,18 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-color: #3d3d3d;
-    background-image: url(https://cdn.statically.io/img/links.xg1.nl/f=auto,w=720/images/bg.jpg);
+    background-image: url(https://cdn.statically.io/img/raw.githubusercontent.com/f=auto,w=720/RXogum/links/main/public/images/bg.jpg);
 }
 
 @media screen and (min-width:576px) {
     body {
-        background-image: url(https://cdn.statically.io/img/links.xg1.nl/f=auto,w=1080/images/bg.jpg);
+        background-image: url(https://cdn.statically.io/img/raw.githubusercontent.com/f=auto,w=1080/RXogum/links/main/public/images/bg.jpg);
     }
 }
 
 @media screen and (min-width:767px) {
     body {
-        background-image: url(https://cdn.statically.io/img/links.xg1.nl/f=auto/images/bg.jpg);
+        background-image: url(https://cdn.statically.io/img/raw.githubusercontent.com/f=auto/RXogum/links/main/public/images/bg.jpg);
     }
 }
 
@@ -59,14 +59,14 @@ body::before {
 
 .link::before {
     top: -4px;
-    -webkit-mask-image: url(https://cdn.statically.io/img/links.xg1.nl/images/top.svg);
-    mask-image: url(https://cdn.statically.io/img/links.xg1.nl/images/top.svg);
+    -webkit-mask-image: url(https://cdn.statically.io/img/raw.githubusercontent.com/RXogum/links/main/public/images/top.svg);
+    mask-image: url(https://cdn.statically.io/img/raw.githubusercontent.com/RXogum/links/main/public/images/top.svg);
 }
 
 .link::after {
     bottom: -4px;
-    -webkit-mask-image: url(https://cdn.statically.io/img/links.xg1.nl/images/bottom.svg);
-    mask-image: url(https://cdn.statically.io/img/links.xg1.nl/images/bottom.svg);
+    -webkit-mask-image: url(https://cdn.statically.io/img/raw.githubusercontent.com/RXogum/links/main/public/images/bottom.svg);
+    mask-image: url(https://cdn.statically.io/img/raw.githubusercontent.com/RXogum/links/main/public/images/bottom.svg);
 }
 
 .link:hover {
