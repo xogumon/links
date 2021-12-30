@@ -1,2 +1,2 @@
-# links.xg1.nl
+# links
 all my links around the wwworld
