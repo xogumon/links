@@ -1,2 +1,2 @@
 # links
-all my links around the wwworld
+link aggregator like linktree made with shortio api and nextjs
