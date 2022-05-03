@@ -7,7 +7,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/RXogum/links.git"
+    "url": "git+https://github.com/xogumon/links.git"
   },
   "scripts": {
     "dev": "next dev",
